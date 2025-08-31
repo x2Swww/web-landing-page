@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="relative w-full h-screen overflow-hidden">
+  <!-- วิดีโอพื้นหลัง -->
+  <video autoplay loop muted playsinline 
+    class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+    <source src="/img/elaina-stargazing-with-a-cat-moewalls-com.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<header class="fixed top-6 left-1/2 z-50 -translate-x-1/2 w-[90%] max-w-5xl">
+  <nav class="flex items-center justify-between rounded-2xl px-6 py-4 
+              backdrop-blur-xl bg-white/10 shadow-lg">
+    <div class="flex flex-1">
+      <a href="#home" class="-m-1.5 p-1.5">
+        <span class="sr-only"></span>
+        <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" 
+             alt="" class="h-8 w-auto" />
+      </a>
+    </div>
+    <div class="hidden lg:flex lg:gap-x-10">
+      <a href="#home" class="text-sm font-semibold text-white">Home Page</a>
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <a href="/index.html" class="text-sm font-semibold text-white">Back Page <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </nav>
+</header>
+
+<div class="absolute top-28 left-200 right-50
+            rounded-2xl px-6 py-6 
+            backdrop-blur-xl bg-white/10 shadow-lg text-white">
+  <h2 class="mb-2">My Team</h2>
+  <p class="mb-2">1.Kanoksak Kamtip</p>
+  <p class="mb-2">2.Naphat Julwatthanasiri (Consultant)</p>
+  <p class="mb-2">3.Thanaphat Kankaeo</p>
+  <p class="mb-2">4.Warintorn Thepsenglee (Design & Create)</p>
+  <p class="mb-2">5.Sanvarid Thongsamut (Find information)</p>
+  <p class="mb-2">6.Hassun Robmueang</p>
+</div>
+
+<!-- Footer -->
+<footer class="fixed bottom-0 left-1/2 -translate-x-1/2 
+                 w-[90%] max-w-5xl
+                 rounded-t-2xl px-6 py-4 
+                 backdrop-blur-xl bg-white/10 shadow-lg text-white text-center">
+  <p>© 2025 Warintorn Thepsenglee, All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
